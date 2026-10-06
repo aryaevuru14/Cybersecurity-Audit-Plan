@@ -1,0 +1,45 @@
+{
+    "target": "example.com",
+    "timestamp": "2026-10-06T17:57:03.148279+00:00",
+    "port_scan": {
+        "21": "CLOSED/FILTERED",
+        "22": "CLOSED/FILTERED",
+        "80": "OPEN",
+        "443": "OPEN",
+        "3389": "CLOSED/FILTERED",
+        "8080": "OPEN"
+    },
+    "http_headers": {
+        "Strict-Transport-Security": {
+            "status": "FAIL - MISSING",
+            "value": null
+        },
+        "Content-Security-Policy": {
+            "status": "FAIL - MISSING",
+            "value": null
+        },
+        "X-Frame-Options": {
+            "status": "FAIL - MISSING",
+            "value": null
+        },
+        "X-Content-Type-Options": {
+            "status": "FAIL - MISSING",
+            "value": null
+        },
+        "Referrer-Policy": {
+            "status": "FAIL - MISSING",
+            "value": null
+        }
+    },
+    "ssl_info": {
+        "subject": {
+            "commonName": "example.com"
+        },
+        "issuer": {
+            "countryName": "US",
+            "organizationName": "SSL Corporation",
+            "commonName": "Cloudflare TLS Issuing ECC CA 3"
+        },
+        "notAfter": "Dec 25 22:56:35 2026 GMT"
+    }
+}
