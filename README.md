@@ -66,14 +66,3 @@ Open the generated `audit_report.json` file to review target security findings.
 
 
 * **CVSS v3.1**: Risk prioritization scoring for vulnerability remediation matrices.
-
-### How to Add This `README.md` to Your GitHub Repository:
-
-Run these commands in your VS Code terminal[cite: 6, 8]:
-
-```bash
-git add README.md
-git commit -m "Add README documentation"
-git push origin main
-
-```
